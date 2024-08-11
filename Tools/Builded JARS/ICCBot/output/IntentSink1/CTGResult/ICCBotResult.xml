@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="de.ecspride.IntentSink1">
+    <intentSummary>
+      <source name="de.ecspride.IntentSink1"/>
+      <sendICCInfo extras="String-secret"/>
+      <method value="&lt;de.ecspride.IntentSink1: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;de.ecspride.IntentSink1: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle), &lt;de.ecspride.IntentSink1: void setResult(int,android.content.Intent)&gt;"/>
+      <nodes>
+        <node method="&lt;de.ecspride.IntentSink1: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="IntentSink1 onCreate" type="ReceiveIntentFromRetValue" unit="$r5 = virtualinvoke r0.&lt;de.ecspride.IntentSink1: android.content.Intent getIntent()&gt;()"/>
+        <node method="IntentSink1 onCreate" type="SetIntentExtra" unit="virtualinvoke $r5.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;secret&quot;, $r4)"/>
+        <node method="IntentSink1 setResult" type="ReceiveIntentFromParatMethod" unit="parameter1 := @parameter1: android.content.Intent"/>
+        <node method="IntentSink1 onCreate" type="ReceiveIntentFromParatMethod" unit="parameter1 := @parameter1: android.content.Intent"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

@@ -1,0 +1,17 @@
+Application Name: icc_implicit_nosrc_nosink.apk
+Uses Permissions: 
+
+Component org.arguslab.icc_implicit_nosrc_nosink
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

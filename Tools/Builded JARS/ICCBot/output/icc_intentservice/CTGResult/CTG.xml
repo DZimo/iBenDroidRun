@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="org.arguslab.icc_intentservice.MainActivity" type="Activity">
+    <destination ICCType="explicit" name="org.arguslab.icc_intentservice.MyIntentService" desType="Service" edgeType="Act2NonAct" method="&lt;org.arguslab.icc_intentservice.MainActivity: void leakImei()&gt;" instructionId="8" unit="virtualinvoke r0.&lt;org.arguslab.icc_intentservice.MainActivity: android.content.ComponentName startService(android.content.Intent)&gt;(r1)" extras="String-data" flags=""/>
+  </source>
+  <source name="org.arguslab.icc_intentservice.MyIntentService" type="Service"/>
+</root>

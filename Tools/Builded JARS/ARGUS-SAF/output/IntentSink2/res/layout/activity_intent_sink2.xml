@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@2131165184" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="83.0dip" android:ems="10" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <requestFocus />
+    </EditText>
+    <Button android:id="@2131165185" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.0dip" android:text="@2130968578" android:layout_below="@2131165184" android:layout_alignLeft="@2131165184" android:onClick="" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+
+org.cert.WriteFile.MainActivity -> interICC_android.intent.action.SEND, 
+

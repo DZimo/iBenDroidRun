@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;org.cert.sendsms.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MainActivity onCreate" unit="virtualinvoke r0.&lt;org.cert.sendsms.MainActivity: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="22800011" predsStr="192393376" succsStr="" context=""/>
+        <baseNodePointTo value="22800011" context=""/>
+        <nodeSetPointToMe value="22800011," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

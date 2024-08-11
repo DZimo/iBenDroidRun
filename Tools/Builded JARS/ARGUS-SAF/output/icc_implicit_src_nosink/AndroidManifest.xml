@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.arguslab.icc_implicit_src_nosink" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-permission android:name=""/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@2130837504" android:label="@2131034112" android:roundIcon="@2130837505" android:supportsRtl="true" android:theme="@2131099648">
+        <activity android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@2131034113" android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

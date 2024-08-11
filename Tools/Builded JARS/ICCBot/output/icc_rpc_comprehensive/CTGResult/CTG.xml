@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="org.arguslab.icc_rpc_comprehensive.FooActivity" type="Activity">
+    <destination ICCType="explicit" name="org.arguslab.icc_rpc_comprehensive.BarActivity" desType="Activity" edgeType="Act2Act" method="&lt;org.arguslab.icc_rpc_comprehensive.FooActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;" instructionId="10" unit="virtualinvoke r0.&lt;org.arguslab.icc_rpc_comprehensive.FooActivity: void startActivityForResult(android.content.Intent,int)&gt;(r3, 1)" extras="" flags=""/>
+  </source>
+  <source name="org.arguslab.icc_rpc_comprehensive.BarActivity" type="Activity">
+    <destination ICCType="explicit" name="org.arguslab.icc_rpc_comprehensive.RemoteService" desType="Service" edgeType="Act2NonAct" method="&lt;org.arguslab.icc_rpc_comprehensive.BarActivity: void onStart()&gt;" instructionId="7" unit="virtualinvoke r0.&lt;org.arguslab.icc_rpc_comprehensive.BarActivity: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)&gt;(r1, $r3, 1)" extras="" flags=""/>
+  </source>
+  <source name="org.arguslab.icc_rpc_comprehensive.RemoteService" type="Service"/>
+</root>

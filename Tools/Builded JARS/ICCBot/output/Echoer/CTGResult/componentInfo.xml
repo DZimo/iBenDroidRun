@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <component name="org.cert.echoer.MainActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.SEND" category="android.intent.category.DEFAULT"/>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT" scheme="http"/>
+    </manifest>
+    <receive action="android.intent.action.VIEW, android.intent.action.SEND" data="notEmpty" extras="String-secret"/>
+  </component>
+</root>

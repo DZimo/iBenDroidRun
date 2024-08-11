@@ -1,0 +1,16 @@
+Application Name: StartActivityForResult1.apk
+Uses Permissions: 
+
+Component org.cert.WriteFile
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="org.arguslab.icc_implicit_nosrc_nosink.MainActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_implicit_nosrc_nosink.MainActivity"/>
+      <destination name="org.arguslab.icc_implicit_nosrc_nosink.FooActivity"/>
+      <sendICCInfo action="amandroid.impliciticctest_action.testaction" extras="String-data">
+        <info unit="virtualinvoke r0.&lt;org.arguslab.icc_implicit_nosrc_nosink.MainActivity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;org.arguslab.icc_implicit_nosrc_nosink.MainActivity: void onCreate(android.os.Bundle)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;org.arguslab.icc_implicit_nosrc_nosink.MainActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_implicit_nosrc_nosink.MainActivity: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle)"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_implicit_nosrc_nosink.MainActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="MainActivity onCreate" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="MainActivity onCreate" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;amandroid.impliciticctest_action.testaction&quot;)"/>
+        <node method="MainActivity onCreate" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;data&quot;, &quot;noSrc&quot;)"/>
+        <node method="MainActivity onCreate" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;org.arguslab.icc_implicit_nosrc_nosink.MainActivity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.arguslab.icc_implicit_nosrc_nosink.FooActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_implicit_nosrc_nosink.FooActivity"/>
+      <receiveICCInfo extras="String-data">
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;data&quot;)" methodSig="&lt;org.arguslab.icc_implicit_nosrc_nosink.FooActivity: void onCreate(android.os.Bundle)&gt;" instructionId="5" key="data" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;org.arguslab.icc_implicit_nosrc_nosink.FooActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_implicit_nosrc_nosink.FooActivity: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle)"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_implicit_nosrc_nosink.FooActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="FooActivity onCreate" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;org.arguslab.icc_implicit_nosrc_nosink.FooActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="FooActivity onCreate" type="GetIntentExtra" unit="$r3 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;data&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

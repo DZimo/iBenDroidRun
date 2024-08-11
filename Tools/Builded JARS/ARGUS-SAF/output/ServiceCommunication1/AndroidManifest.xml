@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="edu.mit.icc_service_messages"> &gt;
+<application android:debuggable="true" android:hardwareAccelerated="true" android:label="">
+        <activity android:label="" android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name=""/>
+    </application>
+    <uses-permission android:name=""/>
+</manifest>

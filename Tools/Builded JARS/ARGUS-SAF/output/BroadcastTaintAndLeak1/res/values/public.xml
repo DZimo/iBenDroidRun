@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="delete" id="0x7f020000" />
+    <public type="drawable" name="icon" id="0x7f020001" />
+    <public type="drawable" name="play" id="0x7f020002" />
+    <public type="drawable" name="record" id="0x7f020003" />
+    <public type="drawable" name="stop" id="0x7f020004" />
+    <public type="drawable" name="black" id="0x7f020005" />
+    <public type="drawable" name="white" id="0x7f020006" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="layout" name="my_simple_list_item" id="0x7f030001" />
+    <public type="string" name="hello" id="0x7f040000" />
+    <public type="string" name="app_name" id="0x7f040001" />
+    <public type="id" name="LinearLayout01" id="0x7f050000" />
+    <public type="id" name="ImageButton01" id="0x7f050001" />
+    <public type="id" name="ImageButton02" id="0x7f050002" />
+    <public type="id" name="myCheckedTextView1" id="0x7f050003" />
+</resources>

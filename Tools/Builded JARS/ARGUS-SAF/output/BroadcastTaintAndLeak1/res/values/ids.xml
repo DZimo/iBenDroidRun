@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="ImageButton01">false</item>
+    <item type="id" name="ImageButton02">false</item>
+    <item type="id" name="myCheckedTextView1">false</item>
+</resources>

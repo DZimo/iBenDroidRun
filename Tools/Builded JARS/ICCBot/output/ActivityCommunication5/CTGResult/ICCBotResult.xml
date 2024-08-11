@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="edu.mit.icc_intent_component_name.OutFlowActivity">
+    <intentSummary>
+      <source name="edu.mit.icc_intent_component_name.OutFlowActivity"/>
+      <destination name="edu.mit.icc_intent_component_name.InFlowActivity"/>
+      <sendICCInfo extras="String-DroidBench">
+        <info unit="virtualinvoke r0.&lt;edu.mit.icc_intent_component_name.OutFlowActivity: void startActivity(android.content.Intent)&gt;(r3)" methodSig="&lt;edu.mit.icc_intent_component_name.OutFlowActivity: void onCreate(android.os.Bundle)&gt;" instructionId="13"/>
+      </sendICCInfo>
+      <method value="&lt;edu.mit.icc_intent_component_name.OutFlowActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;edu.mit.icc_intent_component_name.OutFlowActivity: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle)"/>
+      <nodes>
+        <node method="&lt;edu.mit.icc_intent_component_name.OutFlowActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="OutFlowActivity onCreate" type="CreateMethod" unit="r3 = new android.content.Intent"/>
+        <node method="OutFlowActivity onCreate" type="InitIntent" unit="specialinvoke r3.&lt;android.content.Intent: void &lt;init&gt;()&gt;()"/>
+        <node method="OutFlowActivity onCreate" type="SetAttribute" unit="virtualinvoke r3.&lt;android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)&gt;(r2)"/>
+        <node method="OutFlowActivity onCreate" type="SetIntentExtra" unit="virtualinvoke r3.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;DroidBench&quot;, $r6)"/>
+        <node method="OutFlowActivity onCreate" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;edu.mit.icc_intent_component_name.OutFlowActivity: void startActivity(android.content.Intent)&gt;(r3)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="edu.mit.icc_intent_component_name.InFlowActivity">
+    <intentSummary>
+      <source name="edu.mit.icc_intent_component_name.InFlowActivity"/>
+      <receiveICCInfo extras="String-DroidBench">
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;DroidBench&quot;)" methodSig="&lt;edu.mit.icc_intent_component_name.InFlowActivity: void onCreate(android.os.Bundle)&gt;" instructionId="5" key="DroidBench" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;edu.mit.icc_intent_component_name.InFlowActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;edu.mit.icc_intent_component_name.InFlowActivity: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle)"/>
+      <nodes>
+        <node method="&lt;edu.mit.icc_intent_component_name.InFlowActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="InFlowActivity onCreate" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;edu.mit.icc_intent_component_name.InFlowActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="InFlowActivity onCreate" type="GetIntentExtra" unit="$r3 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;DroidBench&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="edu.mit.icc_intent_component_name.IsolateActivity">
+    <intentSummary>
+      <source name="edu.mit.icc_intent_component_name.IsolateActivity"/>
+      <receiveICCInfo extras="String-DroidBench">
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;DroidBench&quot;)" methodSig="&lt;edu.mit.icc_intent_component_name.IsolateActivity: void onCreate(android.os.Bundle)&gt;" instructionId="4" key="DroidBench" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;edu.mit.icc_intent_component_name.IsolateActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;edu.mit.icc_intent_component_name.IsolateActivity: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle)"/>
+      <nodes>
+        <node method="&lt;edu.mit.icc_intent_component_name.IsolateActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="IsolateActivity onCreate" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;edu.mit.icc_intent_component_name.IsolateActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="IsolateActivity onCreate" type="GetIntentExtra" unit="$r3 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;DroidBench&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

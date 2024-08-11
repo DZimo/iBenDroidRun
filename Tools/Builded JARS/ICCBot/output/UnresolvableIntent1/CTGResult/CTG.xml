@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="edu.mit.icc_unresolvable_intent.InFlowActivity" type="Activity"/>
+  <source name="edu.mit.icc_unresolvable_intent.OutFlowActivity" type="Activity">
+    <destination ICCType="implicit" name="edu.mit.icc_unresolvable_intent.InFlowActivity2" desType="Activity" edgeType="Act2Act" method="&lt;edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)&gt;" instructionId="11" unit="virtualinvoke r0.&lt;edu.mit.icc_unresolvable_intent.OutFlowActivity: void startActivity(android.content.Intent)&gt;(r2)" action="edu.mit.icc_unresolvable_intent.EDIT, edu.mit.icc_unresolvable_intent.ACTION" extras="String-DroidBench" flags=""/>
+    <destination ICCType="implicit" name="edu.mit.icc_unresolvable_intent.InFlowActivity" desType="Activity" edgeType="Act2Act" method="&lt;edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)&gt;" instructionId="11" unit="virtualinvoke r0.&lt;edu.mit.icc_unresolvable_intent.OutFlowActivity: void startActivity(android.content.Intent)&gt;(r2)" action="edu.mit.icc_unresolvable_intent.EDIT, edu.mit.icc_unresolvable_intent.ACTION" extras="String-DroidBench" flags=""/>
+  </source>
+  <source name="edu.mit.icc_unresolvable_intent.InFlowActivity2" type="Activity"/>
+</root>

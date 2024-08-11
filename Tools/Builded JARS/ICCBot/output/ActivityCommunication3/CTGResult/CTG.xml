@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="edu.mit.icc_componentname_class_constant.OutFlowActivity" type="Activity">
+    <destination ICCType="explicit" name="edu.mit.icc_componentname_class_constant.InFlowActivity" desType="Activity" edgeType="Act2Act" method="&lt;edu.mit.icc_componentname_class_constant.OutFlowActivity: void onCreate(android.os.Bundle)&gt;" instructionId="16" unit="virtualinvoke r0.&lt;edu.mit.icc_componentname_class_constant.OutFlowActivity: void startActivity(android.content.Intent)&gt;($r9)" extras="String-DroidBench" flags=""/>
+  </source>
+  <source name="edu.mit.icc_componentname_class_constant.InFlowActivity" type="Activity"/>
+  <source name="edu.mit.icc_componentname_class_constant.IsolateActivity" type="Activity"/>
+</root>

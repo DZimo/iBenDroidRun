@@ -1,0 +1,16 @@
+Application Name: SendSMS.apk
+Uses Permissions: 
+
+Component org.cert.sendsms
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

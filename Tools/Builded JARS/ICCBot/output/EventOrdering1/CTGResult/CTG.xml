@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="edu.mit.icc_event_ordering.OutFlowActivity" type="Activity">
+    <destination ICCType="implicit" name="edu.mit.icc_event_ordering.InFlowActivity" desType="Activity" edgeType="Act2Act" method="&lt;edu.mit.icc_event_ordering.OutFlowActivity: void onCreate(android.os.Bundle)&gt;" instructionId="6" unit="virtualinvoke r0.&lt;edu.mit.icc_event_ordering.OutFlowActivity: void startActivity(android.content.Intent)&gt;(r2)" action="edu.mit.icc_event_ordering.ACTION" extras="" flags=""/>
+  </source>
+  <source name="edu.mit.icc_event_ordering.IsolateActivity" type="Activity"/>
+  <source name="edu.mit.icc_event_ordering.InFlowActivity" type="Activity"/>
+</root>

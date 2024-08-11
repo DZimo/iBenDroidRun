@@ -1,0 +1,16 @@
+Application Name: icc_intentservice.apk
+Uses Permissions: 
+
+Component org.arguslab.icc_intentservice
+  Component type: service
+  Exported: false
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="edu.mit.icc_intent_passed_through_api.IsolateActivity" type="Activity"/>
+  <source name="edu.mit.icc_intent_passed_through_api.OutFlowActivity" type="Activity"/>
+  <source name="edu.mit.icc_intent_passed_through_api.InFlowActivity" type="Activity"/>
+</root>

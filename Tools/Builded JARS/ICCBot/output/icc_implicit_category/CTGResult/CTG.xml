@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="org.arguslab.icc_implicit_category.MainActivity" type="Activity">
+    <destination ICCType="implicit" name="org.arguslab.icc_implicit_category.FooActivity" desType="Activity" edgeType="Act2Act" method="&lt;org.arguslab.icc_implicit_category.MainActivity: void leakImei()&gt;" instructionId="8" unit="virtualinvoke r0.&lt;org.arguslab.icc_implicit_category.MainActivity: void startActivity(android.content.Intent)&gt;(r1)" action="test" category="amandroid.impliciticctest_Categories.testcategory1" extras="String-data" flags=""/>
+  </source>
+  <source name="org.arguslab.icc_implicit_category.FooActivity" type="Activity"/>
+</root>

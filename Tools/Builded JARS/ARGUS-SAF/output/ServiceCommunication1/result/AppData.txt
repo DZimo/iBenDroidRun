@@ -1,0 +1,16 @@
+Application Name: ServiceCommunication1.apk
+Uses Permissions: 
+
+Component edu.mit.icc_service_messages
+  Component type: service
+  Exported: false
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;org.arguslab.icc_rpc_comprehensive.BarActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="BarActivity onCreate" unit="virtualinvoke r0.&lt;org.arguslab.icc_rpc_comprehensive.BarActivity: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="70061633" predsStr="38659643" succsStr="" context=""/>
+        <baseNodePointTo value="70061633" context=""/>
+        <nodeSetPointToMe value="70061633," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;org.arguslab.icc_rpc_comprehensive.FooActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="FooActivity onCreate" unit="virtualinvoke r0.&lt;org.arguslab.icc_rpc_comprehensive.FooActivity: void setContentView(int)&gt;(2130903041)">
+        <nodeInfo nodeId="698133256" predsStr="1005591041" succsStr="1819665340" context=""/>
+        <baseNodePointTo value="698133256" context=""/>
+        <nodeSetPointToMe value="698133256," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

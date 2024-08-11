@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.arguslab.rpc_localservice" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-permission android:name=""/>
+    <application android:allowBackup="true" android:icon="@2130837504" android:label="@2131034112" android:roundIcon="@2130837505" android:supportsRtl="true" android:theme="@2131099648">
+        <activity android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:name=""/>
+    </application>
+</manifest>

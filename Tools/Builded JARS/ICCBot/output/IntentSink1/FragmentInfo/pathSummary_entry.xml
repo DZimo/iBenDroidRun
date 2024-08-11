@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;de.ecspride.IntentSink1: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="IntentSink1 onCreate" unit="virtualinvoke r0.&lt;de.ecspride.IntentSink1: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="888984210" predsStr="501741720" succsStr="" context=""/>
+        <baseNodePointTo value="888984210" context=""/>
+        <nodeSetPointToMe value="888984210," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="org.cert.WriteFile.MainActivity">
+    <intentSummary>
+      <source name="org.cert.WriteFile.MainActivity"/>
+      <receiveICCInfo extras="String-secret">
+        <info unit="$r4 = virtualinvoke $r3.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;(&quot;secret&quot;)" methodSig="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;" instructionId="11" key="secret" value="null"/>
+        <info unit="$r4 = virtualinvoke $r3.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;(&quot;secret&quot;)" methodSig="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;" instructionId="14" key="secret" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;,void onActivityResult(int,int,android.content.Intent)"/>
+      <nodes>
+        <node method="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;"/>
+        <node method="MainActivity onActivityResult" type="ReceiveIntentFromRetValue" unit="$r1 = virtualinvoke r0.&lt;org.cert.WriteFile.MainActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="MainActivity onActivityResult" type="GetIntentExtra" unit="$r3 = virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;()"/>
+        <node method="MainActivity onActivityResult" type="GetIntentExtra" unit="$r3 = virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;()"/>
+      </nodes>
+    </intentSummary>
+    <intentSummary>
+      <source name="org.cert.WriteFile.MainActivity"/>
+      <receiveICCInfo extras="String-secret">
+        <info unit="$r4 = virtualinvoke $r3.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;(&quot;secret&quot;)" methodSig="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;" instructionId="11" key="secret" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;,void onActivityResult(int,int,android.content.Intent)"/>
+      <nodes>
+        <node method="&lt;org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;"/>
+        <node method="MainActivity onActivityResult" type="ReceiveIntentFromRetValue" unit="$r1 = virtualinvoke r0.&lt;org.cert.WriteFile.MainActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="MainActivity onActivityResult" type="GetIntentExtra" unit="$r3 = virtualinvoke $r1.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;()"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.cert.WriteFile.Button1Listener">
+    <intentSummary>
+      <source name="org.cert.WriteFile.Button1Listener"/>
+      <destination name="interICC_android.intent.action.SEND, "/>
+      <sendICCInfo action="android.intent.action.SEND" type="text/plain" extras="String-secret">
+        <info unit="virtualinvoke $r5.&lt;org.cert.WriteFile.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 0)" methodSig="&lt;org.cert.WriteFile.Button1Listener: void onClick(android.view.View)&gt;" instructionId="13"/>
+      </sendICCInfo>
+      <method value="&lt;org.cert.WriteFile.Button1Listener: void onClick(android.view.View)&gt;"/>
+      <methodtrace value="&lt;org.cert.WriteFile.Button1Listener: void onClick(android.view.View)&gt;,void onClick(android.view.View)"/>
+      <nodes>
+        <node method="&lt;org.cert.WriteFile.Button1Listener: void onClick(android.view.View)&gt;"/>
+        <node method="Button1Listener onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="Button1Listener onClick" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;android.intent.action.SEND&quot;)"/>
+        <node method="Button1Listener onClick" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setType(java.lang.String)&gt;(&quot;text/plain&quot;)"/>
+        <node method="Button1Listener onClick" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;secret&quot;, $r3)"/>
+        <node method="Button1Listener onClick" type="SendIntent2ICC" unit="virtualinvoke $r5.&lt;org.cert.WriteFile.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 0)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

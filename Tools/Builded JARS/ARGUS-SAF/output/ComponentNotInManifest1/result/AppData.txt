@@ -1,0 +1,16 @@
+Application Name: ComponentNotInManifest1.apk
+Uses Permissions: 
+
+Component edu.mit.icc_component_not_in_manifest
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

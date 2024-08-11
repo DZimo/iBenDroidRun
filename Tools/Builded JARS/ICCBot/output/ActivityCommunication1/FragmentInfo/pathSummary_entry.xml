@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;de.ecspride.Activity1: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="Activity1 onCreate" unit="virtualinvoke r0.&lt;de.ecspride.Activity1: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="904050847" predsStr="1530013811" succsStr="" context=""/>
+        <baseNodePointTo value="904050847" context=""/>
+        <nodeSetPointToMe value="904050847," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;de.ecspride.Activity2: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="Activity2 onCreate" unit="virtualinvoke r0.&lt;de.ecspride.Activity2: void setContentView(int)&gt;(2130903041)">
+        <nodeInfo nodeId="848187074" predsStr="1638622497" succsStr="" context=""/>
+        <baseNodePointTo value="848187074" context=""/>
+        <nodeSetPointToMe value="848187074," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

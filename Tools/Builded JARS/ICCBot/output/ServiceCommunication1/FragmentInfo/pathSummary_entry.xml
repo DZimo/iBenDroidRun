@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;edu.mit.icc_service_messages.ActivityMessenger: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="ActivityMessenger onCreate" unit="virtualinvoke r0.&lt;edu.mit.icc_service_messages.ActivityMessenger: void setContentView(int)&gt;(2130837504)">
+        <nodeInfo nodeId="233142783" predsStr="569235601" succsStr="" context=""/>
+        <baseNodePointTo value="233142783" context=""/>
+        <nodeSetPointToMe value="233142783," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

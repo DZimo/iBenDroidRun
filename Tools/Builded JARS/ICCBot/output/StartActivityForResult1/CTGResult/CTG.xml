@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="org.cert.WriteFile.MainActivity" type="Activity">
+    <destination ICCType="implicit" name="android.intent.action.SEND, " edgeType="Act2Class" method="&lt;org.cert.WriteFile.Button1Listener: void onClick(android.view.View)&gt;" instructionId="13" unit="virtualinvoke $r5.&lt;org.cert.WriteFile.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 0)" action="android.intent.action.SEND" type="text/plain" extras="String-secret" flags=""/>
+  </source>
+</root>

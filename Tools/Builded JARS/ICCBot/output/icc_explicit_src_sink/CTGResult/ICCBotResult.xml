@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="org.arguslab.icc_explicit_src_sink.MainActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_explicit_src_sink.MainActivity"/>
+      <destination name="org.arguslab.icc_explicit_src_sink.FooActivity"/>
+      <sendICCInfo extras="String-data">
+        <info unit="virtualinvoke r0.&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void startActivity(android.content.Intent)&gt;(r1)" methodSig="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;" instructionId="8"/>
+      </sendICCInfo>
+      <method value="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;,void leakImei()"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;"/>
+        <node method="MainActivity leakImei" type="CreateMethod" unit="r1 = new android.content.Intent"/>
+        <node method="MainActivity leakImei" type="SetAttribute" unit="specialinvoke r1.&lt;android.content.Intent: void &lt;init&gt;(android.content.Context,java.lang.Class)&gt;($r5, class &quot;Lorg/arguslab/icc_explicit_src_sink/FooActivity;&quot;)"/>
+        <node method="MainActivity leakImei" type="SetIntentExtra" unit="virtualinvoke r1.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;data&quot;, $r4)"/>
+        <node method="MainActivity leakImei" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void startActivity(android.content.Intent)&gt;(r1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.arguslab.icc_explicit_src_sink.MainActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_explicit_src_sink.MainActivity"/>
+      <destination name="org.arguslab.icc_explicit_src_sink.FooActivity"/>
+      <sendICCInfo extras="String-data">
+        <info unit="virtualinvoke r0.&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void startActivity(android.content.Intent)&gt;(r1)" methodSig="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;" instructionId="8"/>
+      </sendICCInfo>
+      <method value="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;,&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;,void leakImei()"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;"/>
+        <node method="&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void leakImei()&gt;"/>
+        <node method="MainActivity leakImei" type="CreateMethod" unit="r1 = new android.content.Intent"/>
+        <node method="MainActivity leakImei" type="SetAttribute" unit="specialinvoke r1.&lt;android.content.Intent: void &lt;init&gt;(android.content.Context,java.lang.Class)&gt;($r5, class &quot;Lorg/arguslab/icc_explicit_src_sink/FooActivity;&quot;)"/>
+        <node method="MainActivity leakImei" type="SetIntentExtra" unit="virtualinvoke r1.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;data&quot;, $r4)"/>
+        <node method="MainActivity leakImei" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;org.arguslab.icc_explicit_src_sink.MainActivity: void startActivity(android.content.Intent)&gt;(r1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.arguslab.icc_explicit_src_sink.FooActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_explicit_src_sink.FooActivity"/>
+      <receiveICCInfo extras="String-data">
+        <info unit="$r4 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;data&quot;)" methodSig="&lt;org.arguslab.icc_explicit_src_sink.FooActivity: void onCreate(android.os.Bundle)&gt;" instructionId="7" key="data" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;org.arguslab.icc_explicit_src_sink.FooActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_explicit_src_sink.FooActivity: void onCreate(android.os.Bundle)&gt;,void onCreate(android.os.Bundle)"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_explicit_src_sink.FooActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="FooActivity onCreate" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;org.arguslab.icc_explicit_src_sink.FooActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="FooActivity onCreate" type="GetIntentExtra" unit="$r4 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;data&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

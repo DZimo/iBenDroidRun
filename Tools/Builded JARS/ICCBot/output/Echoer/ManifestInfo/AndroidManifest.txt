@@ -1,0 +1,33 @@
+manifest
+- package: org.cert.echoer
+- versionName: 1.0
+- versionCode: 1
+	uses-sdk
+	- minSdkVersion: 8
+	- targetSdkVersion: 16
+	application
+	- icon: 2130837504
+	- theme: 2131099649
+	- label: 2131034112
+	- allowBackup: true
+		activity
+		- name: org.cert.echoer.MainActivity
+		- label: 2131034112
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+		activity-alias
+		- name: MainActivity_Alias
+		- label: MainActivity_VIEW
+		- targetActivity: org.cert.echoer.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: http

@@ -1,0 +1,16 @@
+Application Name: icc_rpc_comprehensive.apk
+Uses Permissions: 
+
+Component org.arguslab.icc_rpc_comprehensive
+  Component type: service
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

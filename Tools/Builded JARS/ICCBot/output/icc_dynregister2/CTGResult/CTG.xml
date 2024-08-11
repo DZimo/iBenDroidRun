@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="org.arguslab.icc_dynregister2.MainActivity" type="Activity">
+    <destination ICCType="implicit" name="org.arguslab.icc_dynregister2.MyReceiver" desType="Receiver" edgeType="Act2NonAct" method="&lt;org.arguslab.icc_dynregister2.MainActivity: void leakImei()&gt;" instructionId="12" unit="virtualinvoke r0.&lt;org.arguslab.icc_dynregister2.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r1)" action="com.ksu" extras="String-id" flags=""/>
+  </source>
+  <source name="org.arguslab.icc_dynregister2.MyReceiver2" type="Receiver"/>
+  <source name="org.arguslab.icc_dynregister2.MyReceiver" type="Receiver"/>
+</root>

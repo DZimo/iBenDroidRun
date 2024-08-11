@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;org.cert.WriteFile.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MainActivity onCreate" unit="virtualinvoke r0.&lt;org.cert.WriteFile.MainActivity: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="119674169" predsStr="269902384" succsStr="" context=""/>
+        <baseNodePointTo value="119674169" context=""/>
+        <nodeSetPointToMe value="119674169," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

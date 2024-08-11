@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2130837510" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@2131034112" android:layout_width="-2" android:layout_height="-2">
+        <ImageButton android:id="@2131034113" android:layout_width="-2" android:layout_height="-2" android:src="@2130837507" />
+        <ImageButton android:id="@2131034114" android:layout_width="-2" android:layout_height="-2" android:src="@2130837508" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+STATIC edge: staticinvoke <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)>(null) in <dummyMainClass: void dummyMainMethod(java.lang.String[])> ==> <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)>
+SPECIAL edge: specialinvoke $r1.<org.cert.echoer.Button1Listener: void <init>(org.cert.echoer.MainActivity)>($r0) in <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)> ==> <org.cert.echoer.Button1Listener: void <init>(org.cert.echoer.MainActivity)>
+VIRTUAL edge: virtualinvoke $r1.<org.cert.echoer.Button1Listener: void onClick(android.view.View)>(null) in <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)> ==> <org.cert.echoer.Button1Listener: void onClick(android.view.View)>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.Button1Listener: void <init>(org.cert.echoer.MainActivity)> ==> <java.lang.Object: void <init>()>
+FINALIZE edge: null in <java.lang.Object: void <init>()> ==> <java.lang.Object: void finalize()>
+SPECIAL edge: specialinvoke $r0.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!") in <java.lang.Object: void finalize()> ==> <java.lang.RuntimeException: void <init>(java.lang.String)>
+SPECIAL edge: specialinvoke r0.<java.lang.Exception: void <init>()>() in <java.lang.RuntimeException: void <init>(java.lang.String)> ==> <java.lang.Exception: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Throwable: void <init>()>() in <java.lang.Exception: void <init>()> ==> <java.lang.Throwable: void <init>()>
+SPECIAL edge: specialinvoke $r0.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!") in <java.lang.Object: void <init>()> ==> <java.lang.RuntimeException: void <init>(java.lang.String)>
+VIRTUAL edge: virtualinvoke r2.<java.lang.Exception: void printStackTrace()>() in <org.cert.echoer.Button1Listener: void onClick(android.view.View)> ==> <java.lang.Throwable: void printStackTrace()>
+SPECIAL edge: specialinvoke $r0.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!") in <java.lang.Throwable: void printStackTrace()> ==> <java.lang.RuntimeException: void <init>(java.lang.String)>
+SPECIAL edge: specialinvoke $r0.<org.cert.echoer.MainActivity: void <init>()>() in <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)> ==> <org.cert.echoer.MainActivity: void <init>()>
+VIRTUAL edge: virtualinvoke $r0.<org.cert.echoer.MainActivity: void onCreate(android.os.Bundle)>(null) in <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)> ==> <org.cert.echoer.MainActivity: void onCreate(android.os.Bundle)>
+VIRTUAL edge: virtualinvoke $r0.<org.cert.echoer.MainActivity: void onResume()>() in <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)> ==> <org.cert.echoer.MainActivity: void onResume()>
+VIRTUAL edge: $z0 = virtualinvoke $r0.<org.cert.echoer.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null) in <dummyMainClass: org.cert.echoer.MainActivity dummyMainMethod_org_cert_echoer_MainActivity(android.content.Intent)> ==> <org.cert.echoer.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+SPECIAL edge: specialinvoke r0.<org.cert.echoer.MainActivity: void getDataFromIntent()>() in <org.cert.echoer.MainActivity: void onResume()> ==> <org.cert.echoer.MainActivity: void getDataFromIntent()>
+VIRTUAL edge: virtualinvoke r1.<java.lang.Exception: void printStackTrace()>() in <org.cert.echoer.MainActivity: void getDataFromIntent()> ==> <java.lang.Throwable: void printStackTrace()>
+VIRTUAL edge: $r2 = virtualinvoke r0.<org.cert.echoer.MainActivity: android.content.Intent getIntent()>() in <org.cert.echoer.MainActivity: void getDataFromIntent()> ==> <org.cert.echoer.MainActivity: android.content.Intent getIntent()>
+SPECIAL edge: specialinvoke $r4.<org.cert.echoer.Button1Listener: void <init>(org.cert.echoer.MainActivity)>(r0) in <org.cert.echoer.MainActivity: void onCreate(android.os.Bundle)> ==> <org.cert.echoer.Button1Listener: void <init>(org.cert.echoer.MainActivity)>
+SPECIAL edge: specialinvoke r0.<org.cert.echoer.MainActivity: void getDataFromIntent()>() in <org.cert.echoer.MainActivity: void onCreate(android.os.Bundle)> ==> <org.cert.echoer.MainActivity: void getDataFromIntent()>
+VIRTUAL edge: virtualinvoke $r3.<org.cert.echoer.MainActivity: void setResult(int,android.content.Intent)>(0, $r5) in <org.cert.echoer.Button1Listener: void onClick(android.view.View)> ==> <org.cert.echoer.MainActivity: void setResult(int,android.content.Intent)>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$drawable: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$attr: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$style: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.BuildConfig: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$id: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$string: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$menu: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$layout: void <init>()> ==> <java.lang.Object: void <init>()>
+SPECIAL edge: specialinvoke r0.<java.lang.Object: void <init>()>() in <org.cert.echoer.R$dimen: void <init>()> ==> <java.lang.Object: void <init>()>

@@ -53,6 +53,6 @@ java -jar Flowdroid/flowdroid.jar -p platforms -s Flowdroid/SourcesAndSinks.txt 
 java -jar Flowdroid/flowdroid.jar -p platforms -s Flowdroid/SourcesAndSinks.txt -a ICC-Bench/RpcHandling/rpc_localservice.apk
 java -jar Flowdroid/flowdroid.jar -p platforms -s Flowdroid/SourcesAndSinks.txt -a ICC-Bench/RpcHandling/rpc_messengerservice.apk
 java -jar Flowdroid/flowdroid.jar -p platforms -s Flowdroid/SourcesAndSinks.txt -a ICC-Bench/RpcHandling/rpc_remoteservice.apk
-java -jar Flowdroid/flowdroid.jar -p platforms -s Flowdroid/SourcesAndFlowdroid/Sinks.txt -a ICC-ch/RpcHandlinFlowdroid/g/rpc_returnsensitive.a
+java -jar Flowdroid/flowdroid.jar -p platforms -s Flowdroid/SourcesAndSinks.txt -a ICC-Bench/RpcHandling/rpc_returnsensitive.apk
 
 echo "End of FlowDroid analysis for ICC-Bench"

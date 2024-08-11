@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="edu.mit.to_components_share_memory.MainActivity" type="Activity"/>
+  <source name="edu.mit.to_components_share_memory.AnotherActivity" type="Activity"/>
+</root>

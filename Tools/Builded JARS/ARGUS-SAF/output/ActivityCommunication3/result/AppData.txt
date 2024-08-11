@@ -1,0 +1,18 @@
+Application Name: ActivityCommunication3.apk
+Uses Permissions: 
+
+Component edu.mit.icc_componentname_class_constant
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+    IntentFilter:(Actions:[""],Categories:[""])
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

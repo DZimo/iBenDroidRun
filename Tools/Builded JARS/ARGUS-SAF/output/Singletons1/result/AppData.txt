@@ -1,0 +1,17 @@
+Application Name: Singletons1.apk
+Uses Permissions: 
+
+Component edu.mit.to_components_share_memory
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+    IntentFilter:(Actions:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

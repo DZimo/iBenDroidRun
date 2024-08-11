@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="edu.mit.icc_broadcast_programmatic_intentfilter">
+    <application android:debuggable="true" android:icon="@2130837505" android:label="">
+        <activity android:label="" android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name=""/>
+</manifest>

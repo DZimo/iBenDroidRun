@@ -1,0 +1,16 @@
+Application Name: icc_dynregister1.apk
+Uses Permissions: 
+
+Component org.arguslab.icc_dynregister1
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

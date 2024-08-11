@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="org.arguslab.icc_dynregister1.MainActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_dynregister1.MainActivity"/>
+      <destination name="org.arguslab.icc_dynregister1.MyReceiver"/>
+      <sendICCInfo action="com.fgwei" extras="String-id">
+        <info unit="virtualinvoke r0.&lt;org.arguslab.icc_dynregister1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r1)" methodSig="&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;,void leakImei()"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;"/>
+        <node method="MainActivity leakImei" type="CreateMethod" unit="r1 = new android.content.Intent"/>
+        <node method="MainActivity leakImei" type="SetAttribute" unit="specialinvoke r1.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;com.fgwei&quot;)"/>
+        <node method="MainActivity leakImei" type="SetIntentExtra" unit="virtualinvoke r1.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;id&quot;, $r4)"/>
+        <node method="MainActivity leakImei" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;org.arguslab.icc_dynregister1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.arguslab.icc_dynregister1.MainActivity">
+    <intentSummary>
+      <source name="org.arguslab.icc_dynregister1.MainActivity"/>
+      <destination name="org.arguslab.icc_dynregister1.MyReceiver"/>
+      <sendICCInfo action="com.fgwei" extras="String-id">
+        <info unit="virtualinvoke r0.&lt;org.arguslab.icc_dynregister1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r1)" methodSig="&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;org.arguslab.icc_dynregister1.MainActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_dynregister1.MainActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;,&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;,void leakImei()"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_dynregister1.MainActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])&gt;"/>
+        <node method="&lt;org.arguslab.icc_dynregister1.MainActivity: void leakImei()&gt;"/>
+        <node method="MainActivity leakImei" type="CreateMethod" unit="r1 = new android.content.Intent"/>
+        <node method="MainActivity leakImei" type="SetAttribute" unit="specialinvoke r1.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;com.fgwei&quot;)"/>
+        <node method="MainActivity leakImei" type="SetIntentExtra" unit="virtualinvoke r1.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;id&quot;, $r4)"/>
+        <node method="MainActivity leakImei" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;org.arguslab.icc_dynregister1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.arguslab.icc_dynregister1.MyReceiver">
+    <intentSummary>
+      <source name="org.arguslab.icc_dynregister1.MyReceiver"/>
+      <receiveICCInfo extras="String-id">
+        <info unit="$r4 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;id&quot;)" methodSig="&lt;org.arguslab.icc_dynregister1.MyReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="7" key="id" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;org.arguslab.icc_dynregister1.MyReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;org.arguslab.icc_dynregister1.MyReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;,void onReceive(android.content.Context,android.content.Intent)"/>
+      <nodes>
+        <node method="&lt;org.arguslab.icc_dynregister1.MyReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+        <node method="MyReceiver onReceive" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;org.arguslab.icc_dynregister1.MyReceiver: android.content.Intent getIntent()&gt;()"/>
+        <node method="MyReceiver onReceive" type="GetIntentExtra" unit="$r4 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;id&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

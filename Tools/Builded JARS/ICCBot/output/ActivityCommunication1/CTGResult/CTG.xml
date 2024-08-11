@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="de.ecspride.Activity1" type="Activity"/>
+  <source name="de.ecspride.Activity2" type="Activity"/>
+</root>

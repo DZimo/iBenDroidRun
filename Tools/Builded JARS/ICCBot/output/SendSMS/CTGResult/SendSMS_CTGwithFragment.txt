@@ -1,0 +1,3 @@
+
+org.cert.sendsms.MainActivity -> interICC_android.intent.action.SEND, 
+

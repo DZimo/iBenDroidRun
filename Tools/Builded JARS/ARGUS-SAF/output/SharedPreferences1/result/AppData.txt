@@ -1,0 +1,17 @@
+Application Name: SharedPreferences1.apk
+Uses Permissions: 
+
+Component edu.mit.shared_preferences
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+    IntentFilter:(Actions:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

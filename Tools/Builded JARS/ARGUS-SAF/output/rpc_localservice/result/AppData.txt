@@ -1,0 +1,16 @@
+Application Name: rpc_localservice.apk
+Uses Permissions: 
+
+Component org.arguslab.rpc_localservice
+  Component type: service
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:[""],Categories:[""])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;org.arguslab.rpc_localservice.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MainActivity onCreate" unit="virtualinvoke r0.&lt;org.arguslab.rpc_localservice.MainActivity: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="1409442094" predsStr="1339257929" succsStr="" context=""/>
+        <baseNodePointTo value="1409442094" context=""/>
+        <nodeSetPointToMe value="1409442094," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

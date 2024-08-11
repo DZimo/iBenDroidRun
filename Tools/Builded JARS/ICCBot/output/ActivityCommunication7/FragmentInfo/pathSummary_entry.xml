@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="InFlowActivity onCreate" unit="virtualinvoke r0.&lt;edu.mit.icc_non_constant_class_object.InFlowActivity: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="216112262" predsStr="477700359" succsStr="" context=""/>
+        <baseNodePointTo value="216112262" context=""/>
+        <nodeSetPointToMe value="216112262," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="OutFlowActivity onCreate" unit="virtualinvoke r0.&lt;edu.mit.icc_non_constant_class_object.OutFlowActivity: void setContentView(int)&gt;(2130903040)">
+        <nodeInfo nodeId="594233924" predsStr="1310342490" succsStr="" context=""/>
+        <baseNodePointTo value="594233924" context=""/>
+        <nodeSetPointToMe value="594233924," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>
